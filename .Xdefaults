@@ -1,0 +1,36 @@
+!XTerm*background: #2D2D2D
+!XTerm*background: #353638
+XTerm*background: #002B36
+XTerm*foreground: #D2D2D2
+XTerm*scrollBar:  off
+XTerm*vt100*geometry:   88x24
+!Colores
+! jwr low contrast
+
+!black
+XTerm*color0: #222222
+XTerm*color8: #454545
+
+!red
+XTerm*color1: #9E5641
+XTerm*color9: #CC896D
+!green
+XTerm*color2: #6C7E55
+XTerm*color10: #C4DF90
+!yellow
+XTerm*color3: #CAAF2B
+XTerm*color11: #FFE080
+!blue
+XTerm*color4: #7FB8D8
+XTerm*color12: #B8DDEA
+!magenta
+XTerm*color5: #956D9D
+XTerm*color13: #C18FCB
+!cyan
+XTerm*color6: #4c8ea1
+XTerm*color14: #6bc1d0
+!white
+XTerm*color7: #808080
+XTerm*color15: #cdcdcd
+
+XTerm*borderColor: #343434
