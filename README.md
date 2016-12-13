@@ -7,3 +7,6 @@ Get this done in two simple steps.
 	cp .Xdefaults ~/
 
 2- Execute  xrdb .Xdefaults and that's all.
+
+![alt tag](https://raw.githubusercontent.com/maniat1k/Solarizedxterm/master/img_solarized.png)
+
