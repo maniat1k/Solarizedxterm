@@ -1,7 +1,8 @@
+!fonts&stuff
+xterm*faceSize: 11
+xterm*eightBitInput: false
+XTerm*faceName: Bitstream Vera Serif Mono
 !Background & foreground
-!test
-!XTerm*background: #2D2D2D
-!XTerm*background: #353638
 XTerm*background: #002B36
 XTerm*foreground: #D2D2D2
 XTerm*borderColor: #343434
