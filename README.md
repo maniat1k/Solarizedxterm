@@ -1,3 +1,5 @@
+[![Invítame un café](https://img.shields.io/badge/Ko--fi-Invítame_un_café-ff5f5f?style=flat-square&logo=ko-fi)](https://ko-fi.com/marcelolemos)
+
 # Solarizedxterm
 
 **Descripción:**
