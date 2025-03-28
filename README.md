@@ -37,6 +37,4 @@ Este proyecto está licenciado bajo la [Licencia Pública General de GNU v2.0](L
 
 [![Invítame un café](https://img.shields.io/badge/Ko--fi-Invítame_un_café-ff5f5f?style=flat-square&logo=ko-fi)](https://ko-fi.com/marcelolemos)
 
-**Enlaces de interés:**  
-- **Perfil de GitHub:** [maniat1k](https://github.com/maniat1k)
-- **Twitter:** [@s0ymarcelo](https://x.com/s0ymarcelo)
+
