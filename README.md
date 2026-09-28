@@ -1,40 +1,68 @@
 # Solarizedxterm
 
-**Descripción:**
-Solarizedxterm es una configuración que aplica el esquema de colores Solarized al terminal xterm, proporcionando una experiencia visual más agradable y consistente para los usuarios de xterm.
+Solarizedxterm es una configuración de recursos X que aplica una paleta inspirada en Solarized a `xterm`, con una configuración simple de colores, tipografía, geometría y comportamiento visual.
 
-**Características:**
-- Implementa el esquema de colores Solarized en xterm.
-- Mejora la legibilidad y reduce la fatiga visual durante sesiones prolongadas en la terminal.
+## Características
 
-**Requisitos:**
-- Sistema operativo compatible con xterm.
-- Acceso a la configuración de archivos en tu directorio de inicio.
+- Configura una paleta de 16 colores para `xterm`.
+- Define colores de fondo, primer plano y borde.
+- Configura tipografía y tamaño.
+- Desactiva la barra de desplazamiento.
+- Define una geometría inicial de 88x24.
 
-**Instalación y Uso:**
-1. **Copiar el archivo de configuración:**
-   ```bash
-   cp .Xdefaults ~/
+## Requisitos
 
-2. **Ejecuta el xrdb .Xdefaults**
-   ```bash
-   xrdb .xdefauts
+- Un sistema con X11 y `xterm`.
+- `xrdb` para cargar los recursos de X.
+- La fuente `Bitstream Vera Serif Mono` si se quiere conservar exactamente la configuración incluida.
 
-3.**Ejecuta bash**
+## Instalación
 
-Al iniciar xterm, debería reflejar el esquema de colores Solarized. ¡Y listo! 😄
+Cloná el repositorio y entrá al directorio:
 
-![alt tag](https://raw.githubusercontent.com/maniat1k/Solarizedxterm/master/img_solarized.png)
+```bash
+git clone https://github.com/maniat1k/Solarizedxterm.git
+cd Solarizedxterm
+```
 
-**Personalización:**  
-Puedes ajustar la configuración editando el archivo `.Xdefaults` en tu directorio de inicio. Para más detalles sobre las opciones disponibles, consulta la [documentación oficial de xterm](https://invisible-island.net/xterm/manpage/xterm.html).
+Copiá el archivo de configuración a tu directorio personal:
 
-**Créditos:**  
-Este proyecto fue desarrollado por [Marcelo Lemos](https://github.com/maniat1k).
+```bash
+cp .Xdefaults ~/.Xdefaults
+```
 
-**Licencia:**  
-Este proyecto está licenciado bajo la [Licencia Pública General de GNU v2.0](LICENSE).
+Cargá la configuración en la base de recursos de X:
+
+```bash
+xrdb -merge ~/.Xdefaults
+```
+
+Luego abrí una nueva instancia de `xterm`:
+
+```bash
+xterm
+```
+
+La nueva terminal debería utilizar la configuración definida en `.Xdefaults`.
+
+![Solarizedxterm](img_solarized.png)
+
+## Personalización
+
+Podés modificar colores, fuente, tamaño y geometría editando `~/.Xdefaults`. Después de cada cambio, volvé a cargar el archivo:
+
+```bash
+xrdb -merge ~/.Xdefaults
+```
+
+Para conocer todas las opciones disponibles, consultá la documentación oficial de xterm.
+
+## Autor
+
+Desarrollado por [Marcelo Lemos](https://github.com/maniat1k).
+
+## Licencia
+
+Este proyecto está distribuido bajo la [GNU General Public License v2.0](LICENSE).
 
 [![Invítame un café](https://img.shields.io/badge/Ko--fi-Invítame_un_café-ff5f5f?style=flat-square&logo=ko-fi)](https://ko-fi.com/marcelolemos)
-
-
